@@ -116,7 +116,7 @@ class MainActivity : ComponentActivity() {
                 type = "application/image"
                 putExtra(Intent.EXTRA_EMAIL, arrayOf("hodovychenko@op.edu.ua"))
                 putExtra(Intent.EXTRA_SUBJECT, "DigiJED Волков Євгеній")
-                putExtra(Intent.EXTRA_TEXT, "Я люблю чай та хочу спати\n\n репозиторій: https://github.com/your-repo")
+                putExtra(Intent.EXTRA_TEXT, "Я люблю чай та хочу спати\n\n репозиторій: https://github.com/SaintCelestine/Volkov_Selfie.git")
                 putExtra(Intent.EXTRA_STREAM, uri)
             }
             startActivity(Intent.createChooser(emailIntent, "Відправити листа на пошту"))
